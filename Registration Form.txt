@@ -1,0 +1,50 @@
+<html>
+<center>
+<h1>Registration Form</h1>
+</center>
+
+<body>
+<form>
+<table align="center">
+
+  <tr><td>Name of the Student:</td>
+  <td><input type="text" id="name" name="name"></td></tr>
+  
+
+  <tr><td>Registration Number:</td>
+  <td><input type="text" id="reg.no" name="reg.no"></td></tr><br>
+
+  <tr><td>Email ID:</td>
+  <td><input type="text" id="Email ID" name="Email ID"></td></tr><br>
+
+  <tr><td>Favourite Game: </td>
+  <td><input type="checkbox" id="Sport1" name="Sport1" value="Cricket">Cricket
+  <input type="checkbox" id="Sport2" name="Sport2" value="Football">Football
+  <input type="checkbox" id="Sport3" name="Sport3" value="Basketball">Basketball</td></tr>
+
+  <tr><td>Gender: </td>
+  <td><input type="radio" id="male" name="gender" value="male">Male
+  <input type="radio" id="female" name="gender" value="female">Female</td></tr>
+
+  <tr><td>Favourite subject: </td>
+  <td><input list="favourite subjects" name="favourite subjects">
+  <datalist id="favourite subjects">
+    <option value="JAVA">
+    <option value="C">
+    <option value="C++">
+    <option value="Python">
+  </datalist></td>
+
+  <tr><td>Address: </td>
+  <td><textarea id="address" name="address" rows="5" cols="30"></textarea></td></tr><br>
+
+
+</table>
+<br>
+<center>
+	<input type="submit" value="Submit">
+</center>
+
+</form>
+</body>
+</html>
